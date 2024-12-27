@@ -1,5 +1,4 @@
 kruize.jpg
-
-Mr.kruize
-
-Is a man
+Mr. Kruize
+A man with a background in science
+tags: man, human, profile, biography

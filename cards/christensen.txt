@@ -1,5 +1,4 @@
 christensen.jpg
-
-Mr.Christensen
-
-Is a person
+Mr. Christensen
+A man with a background in science
+tags: bird, human, photo, person
