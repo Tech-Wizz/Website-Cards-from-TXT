@@ -50,14 +50,14 @@
       // Iterate over each file and create cards
       for (let i = 0; i < cardFiles.length; i++) {
         const fileName = cardFiles[i];
-        const textFilePath = `/cards/${fileName}`;
+        const textFilePath = `cards/${fileName}`;
         
         try {
           const response = await fetch(textFilePath); // Fetch the content of the .txt file
           const text = await response.text();
           const lines = text.split('\n'); // Split content by newlines
 
-          const imagePath = `/img/${lines[0]}`;  // First line is the image file name
+          const imagePath = `img/${lines[0]}`;  // First line is the image file name
           const title = lines[1];  // Second line is the title
           const description = lines.slice(2).join(' ');  // The rest is the description
 
